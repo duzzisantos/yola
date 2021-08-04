@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hr.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>Yola - HR Services</title>
+</head>
+
+<body>
+    <div id="topPage">
+        <div id="logos">
+
+        </div>
+        <div id="topButton">
+            <button id="userImage"></button>
+            <button id="logout">Logout</button>
+        </div>
+    </div>
+    <div id="sideMenu">
+        <div id="side">
+            <h5>SIDE MENU</h5>
+            <a href=""><i class="fas fa-home"></i>   Home Page</a>
+            <a href=""><i class="fas fa-sitemap"></i>   Departments </a>
+            <a href=""><i class="fas fa-users"></i>   Team Leads </a>
+            <a href=""><i class="fas fa-users-cog"></i>   Managers</a>
+            <a href=""><i class="fas fa-bullhorn"></i>   Latest </a>
+            <a href=""><i class="fas fa-briefcase"></i>   Offers </a>
+            <a href=""><i class="fas fa-wrench"></i>   Settings </a>
+            <a href=""><i class="far fa-envelope"></i>   Contact </a>
+        </div>
+    </div>
+    <div id="content">
+        <div id="firstContent">
+            <select name="information" id="selectInfo">
+                <option value="select" default>Select HR Topics</option>
+                <option value="hrdata"> My Profile</option>
+                <option value="supervisors">My Supervisors</option>
+                <option value="projects">My Projects</option>
+                <option value="payslip">My Payslip</option>
+            </select>
+            <div id="displayPage"></div>
+        </div>
+
+        <div id="fourthContent">
+            <select name="request" id="requests">
+                <option value="select" default>Select HR Requests</option>
+                <option value="leave">Apply For Leave</option>
+                <option value="retire">Retire Expenses</option>
+                <option value="appointment">Book Appointment</option>
+            </select>
+            <div id="displayPage2">
+                <form action="" id="leave">
+                    <label for="start">Start date:</label>
+                    <input type="date">
+                    <label for="end">End date</label>
+                    <input type="date">
+                    <button id="displayButton">Sumbit</button>
+                </form>
+                <form action="" id="expenses">
+                    <input type="text" placeholder="Expense item">
+                    <input type="number" placeholder="Cash provided">
+                    <input type="number" placeholder="Cash spent">
+                    <button id="displayButton">Sumbit</button>
+                </form>
+                <form action="" id="appointment">
+                    <input type="text" placeholder="Subject">
+                    <input type="datetime-local">
+                    <button id="displayButton">Book</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="secondContent">
+            <h4>Upload Credentials</h4>
+            <form action="" id="myForm">
+                <label for="certificates">Qualification:</label>
+                <input type="file" id="certificates">
+                <label for="certificates">Promotional Certificate:</label>
+                <input type="file" id="certificates">
+                <label for="certificates">Training Certificate:</label>
+                <input type="file" id="certificates">
+                <input type="submit" id="submitForm">
+            </form>
+        </div>
+
+        <div id="thirdContent">
+            <h4>Update Personal Data</h4>
+            <form action="" id="updateForm">
+                <label for="phone">Postal Address:</label>
+                <input type="text" id="telephone">
+                <label for="email">Insurance Number:</label>
+                <input type="text" id="email">
+                <label for="phone">Insurance Provider:</label>
+                <input type="text" id="address">
+                <input type="submit" id="submitForm">
+            </form>
+        </div>
+    </div>
+    <script src="hr.js"></script>
+</body>
+
+</html>
