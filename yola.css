@@ -1,0 +1,212 @@
+* {
+    color: #A13D63;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    color: #A13D63;
+    font-size: 40px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+i {
+    color: rgb(94, 94, 94);
+}
+
+.container i {
+    color: rgb(167, 167, 167);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+#first {
+    width: 1365px;
+    height: 100px;
+    background-color: whitesmoke;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    margin-left: -9px;
+}
+
+.container {
+    height: 450px;
+    width: 100%;
+    padding-top: 170px;
+}
+
+#infos {
+    height: 450px;
+    width: 600px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 70px;
+}
+
+#infos1, #infos3 {
+    height: 350px;
+    width: 190px;
+    display: inline-block;
+    background-color: #A13D63;
+    margin-top: 0%;
+    margin-left: 4px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 50px;
+}
+
+#infos2 {
+    height: 350px;
+    width: 190px;
+    display: inline-block;
+    background-color: #c7396f;
+    margin-top: 0%;
+    margin-left: 4px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 50px;
+}
+
+#infos1A {
+    height: 120px;
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: block;
+    background-image: url('https://www.serioussecurity.com.au/wp-content/uploads/2014/09/business-man.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+
+#infos2A {
+    height: 120px;
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: block;
+    background-image: url('https://cdn.crello.com/api/media/medium/349500472/stock-photo-front-view-african-american-businesswoman');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+
+#infos3A {
+    height: 120px;
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: block;
+    background-image: url('https://media.istockphoto.com/photos/smiling-young-caucasian-businesswoman-on-white-background-picture-id178855872?k=20&m=178855872&s=612x612&w=0&h=ZLytFxiJpPQslycSCthVKiN3S752CDaUnl7biJhnmMw=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 50px;
+}
+
+#infos1B, #infos2B, #infos3B {
+    height: 210px;
+    width: 180px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: block;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(240, 240, 240);
+}
+
+li {
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+}
+
+#infos1 {
+    position: absolute;
+}
+
+#infos2 {
+    position: absolute;
+    margin-left: 193px;
+    margin-top: 3%;
+}
+
+#infos3 {
+    position: relative;
+    margin-left: 382px;
+    margin-top: 15%;
+}
+
+#login {
+    height: 450px;
+    width: 600px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+#toYola {
+    font-size: 35px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    width: 400px;
+    padding: 7px;
+    outline: none;
+}
+
+label {
+    display: block;
+    margin: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#forgot {
+    height: 30px;
+    width: 150px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+#forgot p {
+    margin-top: 0px;
+    color: gray;
+}
+
+#forgot p:hover {
+    color: #A13D63;
+    cursor: pointer;
+}
+
+button[type=button] {
+    padding: 10px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(16, 138, 16);
+    transition: ease left;
+    cursor: pointer;
+}

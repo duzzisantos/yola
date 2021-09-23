@@ -1,0 +1,157 @@
+* {
+    color: #A13D63;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    color: #A13D63;
+    font-size: 40px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+i {
+    color: rgb(94, 94, 94);
+}
+
+#first {
+    width: 1365px;
+    height: 100px;
+    background-color: whitesmoke;
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    margin-left: -9px;
+}
+
+h1 {
+    text-align: left;
+    color: #A13D63;
+    padding-top: 100px;
+}
+
+
+#btnWrap {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233, 230, 230);
+}
+
+#btnA, #btnB, #btnC, #btnD {
+    padding: 14.5px;
+    width: 24.5%;
+    margin: 0px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(233, 230, 230);
+}
+
+#btnA {
+    margin-left: 8px;
+    background-color: #A13D63;
+    color: white;
+}
+
+#btnA:hover, #btnB:hover, #btnC:hover, #btnD:hover {
+    cursor: pointer;
+    background-color: #A13D63;
+    color: white;
+}
+
+#admin {
+    height: 400px;
+    width: 100%;
+
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#finance {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+
+#it {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+
+#ops {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+
+#adminStaff{
+    height: 180px;
+    width: 195px;
+    margin: 10px;
+    background-color: rgb(248, 248, 248);
+    display: inline-block;
+    background-image: url('https://www.rvcj.com/wp-content/uploads/2015/06/1-Business-Woman.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#finStaff{
+    height: 180px;
+    width: 195px;
+    margin: 10px;
+    background-color: rgb(248, 248, 248);
+    display: inline-block;
+    background-image: url('hrpics/fin1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#itStaff{
+    height: 180px;
+    width: 195px;
+    margin: 10px;
+    background-color: rgb(248, 248, 248);
+    display: inline-block;
+    background-image: url('hrpics/fin2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+}
+
+#opStaff{
+    height: 180px;
+    width: 195px;
+    margin: 10px;
+    background-color: rgb(248, 248, 248);
+    display: inline-block;
+    background-image: url('hrpics/fin3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+}
+#staffName{
+    height: 50px;
+    width: 195px;
+    z-index: 1;
+    overflow: hidden;
+    bottom: 0;
+    margin-top: 130px;
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.774), rgba(128, 128, 128, 0.74));
+}
+#adminStaff:nth-child(1), #finStaff:nth-child(1), #itStaff:nth-child(1), #opStaff:nth-child(1){
+    margin-left: 30px;
+}
+
+#adminStaff:nth-child(7), #finStaff:nth-child(7), #itStaff:nth-child(7), #opStaff:nth-child(7){
+    margin-left: 30px;
+}
